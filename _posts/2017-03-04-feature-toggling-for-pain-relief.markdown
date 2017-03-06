@@ -62,13 +62,13 @@ For this example, the following environment was used:
 ### Intstall FeatureToggle library via NuGet ###
 In Visual Studio, install the open source FeatureToggle library via NuGet and add it to the projects where you want to use it...
 
-![Installing FeatureToggle in NuGet](/assets/NuGet-Install-FeatureToggle.png)
+![Installing FeatureToggle in NuGet](/assets/NuGet-Install-FeatureToggle.PNG)
 
 Notice that a package dependency `FeatureToggle.Core` is also installed.
 
 I like to create class library project in my solution for feature toggle related functionality...
 
-![Feature Toggle class library in Visual Studio](/assets/Feature-Toggle-Class-Library-In-VS.png)
+![Feature Toggle class library in Visual Studio](/assets/Feature-Toggle-Class-Library-In-VS.PNG)
 
 OK, so now we're ready to create a new feature toggle and use it in code. Lets start by using one of the built in toggles that come bundled with this package.
 
@@ -116,7 +116,7 @@ If you want the flexibility of storing and controlling the feature toggles on / 
 #### Create a database table for storing Feature Toggle states ####
 We're going to use a Microsoft SQL Server database table to store our feature toggle states...
 
-![Feature Toggles database table](/assets/Feature-Toggles-Database-Table.png)
+![Feature Toggles database table](/assets/Feature-Toggles-Database-Table.PNG)
 
 And then add a row to this table for our new feature toggle class...
 
