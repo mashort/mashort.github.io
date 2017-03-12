@@ -2,8 +2,8 @@
 layout: post
 title: "Feature Toggling for Pain Relief"
 date: 2017-03-04
-menu: review
 categories: Design
+published: true
 ---
 While working as consultants on an Enterprise level ASP.NET application, my colleagues and I became aware of a recurring pain-point that the in-house development team were suffering from.
 
