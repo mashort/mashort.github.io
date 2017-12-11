@@ -31,9 +31,9 @@ The options for modernisation usually depend on factors such as the size and com
 - Break off functionality from the existing application to new services where suitable.
 
 ## Where to Start?
-Deciding which option to proceed with can be a daunting prospect in itslef. However, development consultants can help with this by conducting the following activities:
+Deciding which option to proceed with can be a daunting prospect in itself. However, development consultants can help with this by conducting the following activities:
 - Thorough analysis of the current system architecture, functionality and technology in use
-- Establishing the functionality, availibilty and scalbility that are expected of the application not just for today but also for tomorrow
+- Establishing the functionality, availabilty and scalability that are expected of the application not just for today but also for tomorrow
 - Observing and gaining an understanding of the current application deployment process
 - Engaging with someone who has to support the application.
 
@@ -64,7 +64,7 @@ Note that:
 
 #### Benefits
 - A controlled low-risk method of transitioning to a new and more modern architecture
-- Has many of the benefits of a microservices architecture and has a flexible hosting model e.g. can scale if required
+- Has many of the advantages of a microservices architecture and has a flexible hosting model e.g. can scale if required
 - ASP.NET Web API provides an HTTP end point (API)
 - Easy for developers to work on and add new functionality
 - Easy and quick to deploy and can be done independently
