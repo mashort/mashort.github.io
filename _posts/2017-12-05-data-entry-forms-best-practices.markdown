@@ -12,7 +12,7 @@ Get rid of as many fields as possible that aren't absolutely essential.
 
 ## Optional Fields
 - Eliminate as many (if not all) optional fields as possible
-- Clearly mark these fields as Opitonal (as opposed to marking mandatory fields as required)
+- Clearly mark these fields as optional (as opposed to marking mandatory fields as required)
 > It’s all about **Voluntary Disclosure** - by default, we humans are programmed to give away more information than we need to on forms, but marking fields as *Required* obliterates this.
 
 ## Labelling
