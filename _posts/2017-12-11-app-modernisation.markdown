@@ -12,7 +12,7 @@ Many of these are considered to be critical applications that deliver inherent b
 
 ## Does this sound familiar?
 These applications are characterised by the following:
-- Develpoed over a number of years by many different people
+- Developed over a number of years by many different people
 - Have incomplete, limited or out-of-date system documentation
 - Complex, difficult and time consuming to enhance
 - Difficult, time consuming and risky to deploy
