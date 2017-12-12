@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Application Modernisation"
+title: "Breathe Life into Ageing Applications"
 date: 2017-12-11
 menu: review
 categories: Architecture
@@ -33,7 +33,7 @@ The options for modernisation usually depend on factors such as the size and com
 ## Where to Start?
 Deciding which option to proceed with can be a daunting prospect in itself. However, development consultants can help with this by conducting the following activities:
 - Thorough analysis of the current system architecture, functionality and technology in use
-- Establishing the functionality, availabilty and scalability that are expected of the application not just for today but also for tomorrow
+- Establishing the functionality, availability and scalability that are expected of the application not just for today but also for tomorrow
 - Observing and gaining an understanding of the current application deployment process
 - Engaging with someone who has to support the application.
 
@@ -46,12 +46,12 @@ Imagine that we have the following hypothetical application that:
 - Is business critical
 - Has regular requests for new features and functionality
 - Can only be deployed in it's entirety
-- Runs (long-running) background processes all day.
+- Runs (long-running, process intensive) background processes all day in the IIS process.
   
 Embarking on a full rewrite at this stage would be too expensive, too risky and would take too long.
 
 ### Suggested Approach
-Identify functionality that could be broken off into a lightweight, decoupled component (that could even be presented as a container image and deployed / scaled on demand). This could then be deployed independently and run as a service in a self-hosted process.
+Identify functionality that could be broken off into a lightweight, decoupled component (that could even be presented as a container image and deployed / scaled on demand). This can then be deployed independently and run as a service in a self-hosted process.
   
 For example:
   
