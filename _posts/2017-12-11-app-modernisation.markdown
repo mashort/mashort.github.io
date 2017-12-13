@@ -2,7 +2,6 @@
 layout: post
 title: "Breathe Life into Ageing Applications"
 date: 2017-12-11
-menu: review
 categories: Architecture
 published: true
 ---
