@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  background-color: #fdfdfd;
+  background-color:white;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -142,25 +142,50 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+.share-page {
+  margin: 30px 0px 10px 0px;
+  text-align: center;
+}
+
 /**
  * Site header
  */
 .site-header {
- /* border-top: 5px solid #424242; */
-  border-bottom: 1px solid #e8e8e8;
+  background-color: white;
+  margin-top: 15px;
   min-height: 75px;
   position: relative;
-  background-color: #555 }
+}
 
 .site-title {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 300;
   line-height: 56px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left; }
-  .site-title, .site-title:visited {
-    color: #e8e8e8; }
+  letter-spacing: 1px;
+}
+
+.site-title, .site-title:visited {
+  color: #222; }
+
+.profile-picture {
+  float: left;
+  margin: 0px 5px 5px 5px;
+}
+
+.site-title-container {
+  float: left;
+  margin: 30px 0px 0px 20px;
+}
+
+.site-title-container a:hover {
+  text-decoration: none;
+}
+
+.site-description {
+  color: #626262;
+  font-size: 18px;
+  padding-left: 2px;
+}
 
 .site-nav {
   float: right;
@@ -177,7 +202,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #fdfdfd;
+      background-color: white;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -208,12 +233,40 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  background-color: #222;
+  min-height: 100px;
+  padding-top: 20px;
+}
 
 .footer-heading {
+  color: #828282;
   font-size: 18px;
   margin-bottom: 15px; }
+
+  .footer-heading a {
+    color: white;
+  }
+
+  .footer-heading a:hover {
+    color: white;
+    text-decoration: underline white;
+  }
+
+.footer-credits {
+  color: #828282;
+  font-size: 15px;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.footer-credits a {
+  color: white;
+}
+
+.footer-credits a:hover {
+  color: white;
+  text-decoration: underline white;
+}
 
 .contact-list,
 .social-media-list {
@@ -256,6 +309,7 @@ pre {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
+
 /**
  * Page content
  */
@@ -269,14 +323,15 @@ pre {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
-    margin-bottom: 30px; }
+    margin-bottom: 10px; }
 
 .post-meta {
+  color: #828282;
+  display: block;
   font-size: 14px;
-  color: #828282; }
+}
 
 .post-link {
-  display: block;
   font-size: 24px; }
 
 /**

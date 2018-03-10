@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="home">
-  <h1 class="page-heading">Posts</h1>
   {{ content }}
 
   <ul class="post-list">
@@ -11,12 +10,11 @@ layout: default
       {% if post.menu != 'review' %}
         <li>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </li>
       {% endif %}
     {% endfor %}
   </ul>
 </div>
+
+{% include share-page.html %}

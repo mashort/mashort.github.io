@@ -1,0 +1,4 @@
+<div class="share-page">
+    <a href="https://twitter.com/intent/tweet?url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&text={% if page.url == '/' %}{{ site.title | cgi_escape }}{% else %}{{ page.title | cgi_escape }}{% endif %}" target="_blank" title="Share on Twitter"><img src="/assets/Twitter-icon.svg" /></a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&title={% if page.url == '/' %}{{ site.title | cgi_escape }}{% else %}{{ page.title | cgi_escape }}{% endif %}" target="_blank" title="Share on LinkedIn"><img src="/assets/LinkedIn-icon.svg" /></a>
+</div>
